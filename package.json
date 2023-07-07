@@ -1,0 +1,38 @@
+{
+  "name": "eommerce",
+  "version": "1.0.0",
+  "description": "ecommerce website project",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "install:package": "npm i eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-react prettier --save-dev"
+  },
+  "author": "robin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "morgan": "^1.10.0",
+    "prettier": "^2.8.8"
+  }
+}
